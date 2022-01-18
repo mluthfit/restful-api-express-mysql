@@ -17,8 +17,8 @@ class Contact {
       body('phone')
         .notEmpty()
         .withMessage('The phone field is required')
-        .isMobilePhone('id-ID')
-        .withMessage('The phone field must be phone format (ID)'),
+        .isMobilePhone()
+        .withMessage('The phone field must be phone format'),
     ];
   }
 
