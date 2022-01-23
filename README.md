@@ -29,7 +29,7 @@ Then, change `dbConfig.js` in `src > database > db.js` according to your databas
 
 Last, start `express` server.
 ```
-node app.js
+> node app.js
 ```
 
 You can use `Postman` to use request details below.
